@@ -4,16 +4,14 @@
     "dependencies": {
         "device": "*",
         "corgio": "*",
-        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.0",
-        "animation": "*"
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.0"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
         "tilemap.g.jres",
-        "tilemap.g.ts",
-        null
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
