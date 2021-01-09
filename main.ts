@@ -27,24 +27,6 @@ scene.onOverlapTile(SpriteKind.Player, sprites.castle.tileDarkGrass2, function (
 let y = 0
 let x = 0
 let myCorg: Corgio = null
-let levels = [img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . 4 4 4 4 . . . . . . . . . 
-    . . . 4 . . . . . . . . . . . . 
-    . . . 4 . . . . . . 4 4 . . . . 
-    . . . 4 . . . . . . . 4 . . . . 
-    . . . 4 . . . . . . . 4 . . . . 
-    . . . 4 4 . . . . . . 4 . . . . 
-    . . . . 4 4 4 4 4 . . 4 . . . . 
-    . . . . . . . . 4 4 4 . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    `]
 info.setLife(10)
 game.showLongText("use the arrow keys to move and press b to get a hint, do not touch lava or it is game over  ", DialogLayout.Full)
 myCorg = corgio.create(SpriteKind.Player)
