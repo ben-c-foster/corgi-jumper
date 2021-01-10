@@ -4,7 +4,8 @@
     "dependencies": {
         "device": "*",
         "corgio": "*",
-        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.0"
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.0",
+        "animation": "*"
     },
     "files": [
         "main.blocks",
