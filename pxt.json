@@ -3,7 +3,6 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "corgio": "*",
         "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.0",
         "animation": "*"
     },
@@ -12,13 +11,14 @@
         "main.ts",
         "README.md",
         "tilemap.g.jres",
-        "tilemap.g.ts"
+        "tilemap.g.ts",
+        "corgio.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.2.16",
+        "target": "1.4.45",
         "targetId": "arcade"
     },
     "supportedTargets": [
